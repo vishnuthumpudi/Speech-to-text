@@ -3,7 +3,6 @@ from sentence_transformers import SentenceTransformer, util
 # Load pre-trained model
 model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 
-# Define question and response
 question = "What is machine learning?"
 response = "Machine learning is a field of artificial intelligence that enables computers to learn from data."
 
